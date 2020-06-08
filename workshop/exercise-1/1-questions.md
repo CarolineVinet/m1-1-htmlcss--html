@@ -30,6 +30,7 @@ a) You want to create a webpage with the photos from your latest vacation
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
 <ol></ol> to have all museums in a list
+<li></li> for each item in the list
 <a> </a> for external links to their respective websites
 
 c) You want to sell designer hats. You need to receive orders from the user.
@@ -58,11 +59,17 @@ f) `th` header cell in HTML table
 
 g) `td` data cell in HTML table
 
+source : https://www.w3schools.com/tags/
+
 ## Q7 - Usually, `td` elements are children of what kind of elements? 
 <tr> </tr>
 
+source : https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td
+
 ## Q8 - What is the difference between td and th?
 td is used to contain data (in a cell) and th adds a header attribute to a column in a table.
+source : https://www.w3schools.com/tags/tag_th.asp
+https://www.w3schools.com/tags/tag_td.asp 
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
 
