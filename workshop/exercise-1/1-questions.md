@@ -44,7 +44,7 @@ c) You want to sell designer hats. You need to receive orders from the user.
 
 ## Q6 - What do the following achronyms stand for?
 
-a) `a`  hyperlink 
+a) `a`  anchor - reference to a hyperlink 
 
 b) `ol` ordered list
 
@@ -75,4 +75,8 @@ for void items such as images <img> or links <a> which cannot contain anything b
 
 ## Q12 - Which attributes are always present in an img element?
 
+src and alt
+
 ## Q13 - Which attribute is always present for an anchor tag?
+
+href
