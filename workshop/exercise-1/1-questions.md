@@ -4,7 +4,7 @@
 
 Type true/false in the provided [ ].
 
-a) [ false] `<div><span>hello</div></span>`
+a) [false] `<div><span>hello</div></span>`
 
 b) [false ]
 
@@ -29,15 +29,18 @@ a) You want to create a webpage with the photos from your latest vacation
 <img></img>
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
-<ol></ol> to have all museums in a list
+<ol></ol> or <ul></ul> to have all museums in a list
 <li></li> for each item in the list
 <a> </a> for external links to their respective websites
 
 c) You want to sell designer hats. You need to receive orders from the user.
 
-<form></form> & <input></input> for the client to input their order in text form. Maybe a <button></button> to submit the order. 
+<form></form> & <input></input> for the client to input their orders & personal info. 
+A <button></button> to submit the order. 
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
+No, a button cannot have a child that is interactive in nature. 
+ source: https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element 
 
 ## Q5 - What is the most generic tag you can use?
 
@@ -73,12 +76,17 @@ https://www.w3schools.com/tags/tag_td.asp
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
 
-h1 will be the most important header but font size should be determined in CSS, not HTML
+h1 will be the most important (bigger) header but font size should be determined in CSS, not HTML
 
 ## Q10 - In which situation can you use self closing tags?
 for void items such as images <img> or links <a> which cannot contain anything but the content they are referencing. 
 
 ## Q11 - What is autofilling and why is it important?
+A feature which allows a browser to store commonly entered values in a given field, to potentially be reused in the future, which saves time. ex: if a user were to fill out a form for which the values for 'name', 'address', 'email' were already entered in a previous form, (and saved by the browser) that information is recognized by the browser and is automatically applied to the form being filled. 
+
+Basically the browser fills in the gaps with data it has already stored from previous entries. 
+
+source: https://cloudfour.com/thinks/autofill-what-web-devs-should-know-but-dont/
 
 ## Q12 - Which attributes are always present in an img element?
 
